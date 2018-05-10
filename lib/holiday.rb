@@ -81,10 +81,8 @@ def all_holidays_with_bbq(holiday_hash)
   holidaysThatIncludeBBQ = []
   bbqIncluded = False
   holiday_hash.each do |season, holidayData|
-    holidayData.each do |holiday, supplyData|
-
-       
-    end
+    holidayData.collect do |holiday, supplyData|
+      
   end
 end
 
