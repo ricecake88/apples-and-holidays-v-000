@@ -69,8 +69,7 @@ def all_supplies_in_holidays(holiday_hash)
     holidayData.each do |holiday, supply|
       holidayArray = holiday.to_s.split("_")
       holidayCapitalized = holidayArray.each {|word| word.capitalize!}
-
-      print "#{      holidayCapitalized.join(" ")}: "
+      print "#{holidayCapitalized.join(" ")}: "
       string = supply.join(", ")
       print "#{string}\n"
     end
