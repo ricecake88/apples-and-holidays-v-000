@@ -69,7 +69,7 @@ def all_supplies_in_holidays(holiday_hash)
     holidayData.each do |holiday, supply|
       print "#{holiday}: "
       string = supply.join(", ")
-      print "#{string}"
+      print "#{string}\n"
     end
   end
 end
