@@ -75,7 +75,7 @@ def all_supplies_in_holidays(holiday_hash)
       stringOutput +="#{string}\n"
     end
   end
-  put stringOutput
+  puts stringOutput
 end
 
 def all_holidays_with_bbq(holiday_hash)
