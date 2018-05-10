@@ -51,6 +51,7 @@ def all_winter_holiday_supplies(holiday_hash)
        supplies[season.to_sym].values
       end
    end
+   puts supplies
    supplies
 end
 
