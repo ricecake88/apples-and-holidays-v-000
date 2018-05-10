@@ -66,7 +66,7 @@ def all_supplies_in_holidays(holiday_hash)
   # etc.
   stringOutput = ""
   holiday_hash.each do |season, holidayData|
-    stringOutput "#{season.to_s.capitalize}:\n"
+    stringOutput += "#{season.to_s.capitalize}:\n"
     holidayData.each do |holiday, supply|
       holidayArray = holiday.to_s.split("_")
       holidayCapitalized = holidayArray.each {|word| word.capitalize!}
